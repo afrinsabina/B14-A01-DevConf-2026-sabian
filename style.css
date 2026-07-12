@@ -129,4 +129,8 @@ ul{
 
 .card-content p{
     color:#6b7280;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+    gap:8px
 }
