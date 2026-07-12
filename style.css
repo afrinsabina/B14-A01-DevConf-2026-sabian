@@ -89,6 +89,10 @@ ul{
     margin-bottom:50px;
 }
 
+.speakers{
+    padding:80px 20px;
+}
+
 .speaker-grid{
     max-width:1200px;
     margin:60px auto 0;
@@ -111,6 +115,7 @@ ul{
 }
 
 .card img{
+    width:100%;
     height:280px;
     object-fit:cover;
 }
@@ -133,8 +138,5 @@ ul{
 
 .card-content p{
     color:#6b7280;
-    margin-top:20px;
-    display:flex;
-    justify-content: space-between;
-    gap:8px
+    margin-top:5px;
 }
