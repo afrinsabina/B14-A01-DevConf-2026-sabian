@@ -244,50 +244,94 @@ ul{
     border:none;
 }
 
+.hackathon{
+    padding:80px 20px;
+    background:linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.hackathon-box{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    color:#fff;
+}
+
+.hackathon-box h4{
+    letter-spacing:2px;
+    color:#ddd6fe;
+    margin-bottom:10px;
+}
+
+.hackathon-box h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hackathon-box>p{
+    font-size:18px;
+    color:#e0e7ff;
+    margin-bottom:40px;
+}
+
+.hackathon-stats{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin-bottom:40px;
+}
+
+.hackathon-stats h3{
+    font-size:28px;
+}
+
+.hackathon-stats p{
+    color:#e0e7ff;
+}
+
+.hackathon-btn{
+    display:inline-block;
+    background-color:#fff;
+    color:#4f46e5;
+    font-weight:700;
+    padding:12px 35px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
 footer{
     background-color:#0f172a;
     color:#fff;
-    padding:60px 20px 20px;
+    padding:40px 20px 20px;
 }
 
 .footer-top{
     max-width:1200px;
     margin:auto;
     display:flex;
+    align-items:center;
     justify-content:space-between;
-    gap:30px;
 }
 
-.footer-top h2{
-    margin-bottom:10px;
+.socials{
+    display:flex;
+    gap:25px;
 }
 
-.footer-top h4{
-    margin-bottom:15px;
-}
-
-.footer-top p{
+.socials a{
     color:#94a3b8;
-}
-
-.footer-top ul{
-    display:block;
-    list-style:none;
-}
-
-.footer-top li{
-    margin-bottom:10px;
-}
-
-.footer-top li a{
-    color:#94a3b8;
+    font-size:15px;
     text-decoration:none;
+}
+
+footer hr{
+    max-width:1200px;
+    margin:30px auto;
+    border:none;
+    border-top:1px solid #334155;
 }
 
 .copyright{
     text-align:center;
     color:#64748b;
-    margin-top:40px;
-    border-top:1px solid #334155;
-    padding-top:20px;
+    padding-bottom:10px;
 }
