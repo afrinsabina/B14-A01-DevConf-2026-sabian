@@ -236,3 +236,51 @@ ul{
     color:#fff;
     border:none;
 }
+
+footer{
+    background-color:#0f172a;
+    color:#fff;
+    padding:60px 20px 20px;
+}
+
+.footer-top{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.footer-top h2{
+    margin-bottom:10px;
+}
+
+.footer-top h4{
+    margin-bottom:15px;
+}
+
+.footer-top p{
+    color:#94a3b8;
+}
+
+.footer-top ul{
+    display:block;
+    list-style:none;
+}
+
+.footer-top li{
+    margin-bottom:10px;
+}
+
+.footer-top li a{
+    color:#94a3b8;
+    text-decoration:none;
+}
+
+.copyright{
+    text-align:center;
+    color:#64748b;
+    margin-top:40px;
+    border-top:1px solid #334155;
+    padding-top:20px;
+}
